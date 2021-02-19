@@ -1,0 +1,248 @@
+body {
+  background-color: black;
+}
+
+#completeInfoContainer {
+  position: absolute;
+}
+
+#plugin {
+  position: relative;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2vw;
+  font-weight: 400;
+  vertical-align: middle;
+  font-size: 1.7vw;
+  font-style: italic;
+  position: relative;
+  top: 10px;
+}
+#pluginContainer {
+  width: 90vw;
+  height: 3vh;
+  margin: auto;
+  position: relative;
+}
+
+#pluginContainer a {
+  color: white;
+}
+
+#infoPopUp {
+  width: 88vw;
+  height: fit-content;
+  background-color: black;
+  position: relative;
+  margin: auto;
+  top: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  font-family: "Lato", sans-serif;
+  z-index: -1;
+  font-size: 1.2vw;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#info {
+  color: white;
+  transform: scale(3.5, 3.5);
+  position: absolute;
+  padding: 0 0 0 5px;
+  right: 50px;
+  top: 40px;
+  z-index: 2;
+}
+
+#xout {
+  transform: scale(0.09, 0.09);
+  position: absolute;
+  padding: 0 0 0 5px;
+  z-index: 2;
+  top: -210px;
+  left: -200px;
+  opacity: 0;
+}
+
+#batteryOutline {
+  width: 90%;
+  height: 35vw;
+  margin: auto;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  z-index: -1;
+  top: 6vh;
+}
+
+#batteryFill {
+  width: 100%;
+  height: 35vw;
+  display: inline-block;
+  position: relative;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: red;
+  z-index: 1;
+}
+
+#batteryFill2 {
+  width: 100%;
+  height: 10vw;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  background-color: white;
+  bottom: 23vw;
+  left: 3%;
+  z-index: -1;
+}
+
+#percentage {
+  color: black;
+  position: absolute;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 7vw;
+  letter-spacing: 0px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+  top: 13.5vw;
+}
+
+#dropbtn {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  width: 80px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdownMonth {
+  position: relative;
+}
+.dropdownDate {
+  position: relative;
+}
+.dropdownYear {
+  position: relative;
+}
+.dropdownHour {
+  position: relative;
+}
+.dropdownMinute {
+  position: relative;
+}
+.dropdownSecond {
+  position: relative;
+}
+select {
+  font-family: "Lato", sans-serif;
+  color: black;
+  background-color: white;
+  border-width: 1px;
+  height: 4.2vh;
+  width: 17vh;
+  font-size: 1.4vw;
+  font-weight: 700;
+  margin: 10px;
+  border-color: white;
+  border-width: 1px;
+  padding: 7px 7px 7px 7px;
+  border-radius: 20px;
+}
+#submitBtn {
+  font-family: "Lato", sans-serif;
+  border-width: 1px;
+  vertical-align: middle;
+  color: white;
+  background-color: black;
+  border-width: 1px;
+  height: 4.2vh;
+  width: 17vh;
+  font-size: 1.4vw;
+  font-weight: 700;
+  margin: 10px;
+  border-color: white;
+  border-width: 1px;
+  padding: 7px 7px 7px 7px;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+#resetBtn {
+  font-family: "Lato", sans-serif;
+  border-width: 1px;
+  vertical-align: middle;
+  color: white;
+  background-color: black;
+  border-width: 1px;
+  height: 4.2vh;
+  width: 17vh;
+  font-size: 1.4vw;
+  font-weight: 700;
+  margin: 10px;
+  border-color: white;
+  border-width: 1px;
+  padding: 7px 7px 7px 7px;
+  border-radius: 20px;
+}
+
+div button {
+  vertical-align: middle;
+}
+
+.buttonContainer p {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 1.2vw;
+  font-weight: 400;
+  margin: 10px;
+  vertical-align: middle;
+  font-size: 1.7vw;
+  font-style: italic;
+}
+
+.bi-x-circle-fill {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  right: -5px;
+  top: 1px;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  font-size: 14px;
+  vertical-align: center;
+  display: none;
+}
+
+.buttonContainer {
+  width: 90vw;
+  height: 10vh;
+  margin: auto;
+  top: 11vh;
+  position: relative;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-flow: wrap;
+  width: 100%;
+  height: 10vh;
+}
