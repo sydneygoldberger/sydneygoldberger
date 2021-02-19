@@ -144,6 +144,9 @@ a:hover {
   padding-left: 1.5vw;
   color: #39304f;
 }
+#box3:hover {
+  background-color: white;
+}
 #textbox3 {
   display: none;
 }
