@@ -1,0 +1,223 @@
+body {
+  color: #39304f;
+  background-color: white;
+  margin: 0px;
+}
+#grid {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+#moveDown {
+  position: relative;
+  top: 3vw;
+}
+#header {
+  margin-top: 4vw;
+  line-height: 1.3;
+  font-size: calc(12px + 1.5vw);
+}
+#mainContainer {
+  width: 80vw;
+  height: auto;
+  margin-left: 4vw;
+  margin-top: 5vw;
+  margin-bottom: 6vw;
+  color: #39304f;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  letter-spacing: 0.03px;
+}
+#description {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: calc(12px + 1.5vw);
+  line-height: 1.1;
+  width: 92vw;
+}
+#here {
+  text-decoration-line: underline;
+}
+a {
+  text-decoration: none;
+  color: #39304f;
+  font-family: "Fira Sans", sans-serif;
+  line-height: 1.3;
+  font-size: calc(12px + 1.5vw);
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+}
+#imageContainer2 {
+  background-color: #39304f;
+  width: 100vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 4vw;
+  justify-content: space-around;
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: calc(12px + 1vw);
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+#imageContainer3 {
+  background-color: #39304f;
+  width: 100vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 80%;
+  row-gap: 5vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  justify-content: space-around;
+}
+#imageContainer2 div {
+  width: 25vw;
+  height: 25vw;
+  margin: auto;
+}
+#imageContainer3 div {
+  width: 60vw;
+  height: 45vw;
+  background-color: black;
+  margin: auto;
+}
+
+#imageContainer2 img {
+  width: 25vw;
+  height: 25vw;
+  object-fit: contain;
+}
+
+#imageContainer3 img {
+  width: 60vw;
+  height: 45vw;
+  object-fit: contain;
+}
+
+#image1 video {
+  object-fit: contain;
+  width: 60vw;
+  height: 45vw;
+}
+
+@media (min-width: 631px) and (max-width: 1290px) {
+  #header {
+    font-size: calc(12px + 1vw);
+  }
+  #description {
+    font-size: calc(12px + 1vw);
+  }
+  a {
+    font-size: calc(12px + 1vw);
+  }
+  #imageContainer2 {
+    background-color: #39304f;
+    width: 100vw;
+    margin: auto;
+    height: auto;
+    grid-template-columns: auto auto;
+    row-gap: 5vw;
+    margin: auto;
+    background-color: #39304f;
+    padding-top: 4vw;
+  }
+  #imageContainer div {
+    width: 40vw;
+    height: 40vw;
+    margin: auto;
+  }
+  #imageContainer2 div {
+    width: 40vw;
+    height: 40vw;
+    margin: auto;
+  }
+  #imageContainer2 img {
+    width: 40vw;
+    height: 40vw;
+    object-fit: contain;
+    /* border-style: solid;
+    border-color: black;
+    border-width: 1px; */
+  }
+}
+
+@media (max-width: 630px) {
+  #header {
+    font-size: 3vw;
+    line-height: 1.4;
+  }
+  #programsUsed {
+    font-size: 3vw;
+    line-height: 0.8;
+  }
+  #description {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 200;
+    font-size: calc(12px + 1vw);
+    line-height: 1.1;
+  }
+  #mainContainer {
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 4vw;
+  }
+  #imageContainer2 {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 5vw;
+    padding-bottom: 5vw;
+    justify-content: space-around;
+  }
+  #imageContainer3 {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 5vw;
+    padding-bottom: 5vw;
+    justify-content: space-around;
+  }
+  #imageContainer img {
+    width: 70vw;
+    height: 70vw;
+    object-fit: contain;
+  }
+  #imageContainer2 div {
+    width: 70vw;
+    height: 70vw;
+  }
+  #imageContainer2 img {
+    width: 70vw;
+    height: 70vw;
+    object-fit: contain;
+  }
+  #imageContainer3 video {
+    width: 70vw;
+    height: 55vw;
+    object-fit: contain;
+  }
+  #imageContainer3 div {
+    width: 70vw;
+    height: 55vw;
+  }
+  #imageContainer3 img {
+    width: 70vw;
+    height: 55vw;
+    object-fit: contain;
+    background-color: #39304f;
+  }
+  #description {
+    font-size: 3vw;
+  }
+  a {
+    font-size: 3vw;
+    color: #39304f;
+  }
+}
