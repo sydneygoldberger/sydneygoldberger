@@ -135,7 +135,7 @@ a:hover {
   margin: auto;
   height: 25vw;
   width: 25vw;
-  background-color: white;
+  background-color: black;
   text-align: center;
 }
 #box3:hover #textbox3 {
@@ -144,7 +144,9 @@ a:hover {
   padding-left: 1.5vw;
   color: #39304f;
 }
-
+#box3:hover {
+  background-color: white;
+}
 #textbox3 {
   display: none;
 }
@@ -322,8 +324,11 @@ a:hover {
   #box3 {
     width: 40vw;
     height: 40vw;
-    background-color: white;
+    background-color: black;
     text-align: left;
+  }
+  #box3:hover {
+    background-color: white;
   }
   #box3:hover #textbox3 {
     display: contents;
