@@ -322,7 +322,7 @@ a:hover {
   #box3 {
     width: 40vw;
     height: 40vw;
-    background-color: black;
+    background-color: white;
     text-align: left;
   }
   #box3:hover #textbox3 {
