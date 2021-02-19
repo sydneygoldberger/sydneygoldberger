@@ -133,7 +133,7 @@ a {
   height: 100%;
   overflow: none;
   /* background-color: white 0.4; */
-  background-color: rgba(225, 225, 225, 0.01);
+  background-color: rgba(0, 0, 0, 0.3);
   z-index: 0;
 }
 
