@@ -60,7 +60,7 @@ a:hover {
 }
 
 #rightColumn {
-  padding-top: 4vw;
+  padding-top: 2vw;
   grid-area: 1 / 2 / 2 / 3;
   padding-left: 2vw;
   padding-top: 2vw;
@@ -166,8 +166,6 @@ a:hover {
     width: auto;
     justify-content: space-evenly;
     text-align: center;
-    position: relative;
-    top: 10px;
   }
   #category1 a {
     color: black;

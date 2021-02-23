@@ -83,7 +83,7 @@ a:hover {
   height: auto;
   position: absolute;
   left: 37vw;
-  padding-top: 2vw;
+  padding-top: 1vw;
 }
 #description {
   font-size: calc(12px + 1vw);
@@ -129,7 +129,6 @@ a:hover {
     text-align: center;
     position: relative;
     top: 10px;
-    padding-bottom: 10px;
   }
   #category1 a {
     color: #707070;
