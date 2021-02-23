@@ -474,8 +474,8 @@ a:hover {
     padding: 0vw;
     grid-template-columns: repeat(1, 100vw);
     grid-template-rows: repeat(6, 100vw);
-    grid-column-gap: 0vw;
-    grid-row-gap: 0vw;
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
     height: auto;
     padding-bottom: 5vw;
   }
