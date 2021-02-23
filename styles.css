@@ -108,7 +108,7 @@ a:hover {
 #box6 {
   grid-area: 3 / 2 / 4 / 3;
 }
-#box1 video {
+#box1 img {
   object-fit: contain;
   height: 30vw;
   width: 30vw;
@@ -118,7 +118,7 @@ a:hover {
   height: 30vw;
   width: 30vw;
 }
-#box3 video {
+#box3 img {
   object-fit: contain;
   height: 30vw;
   width: 30vw;
@@ -214,7 +214,7 @@ a:hover {
     padding-top: 7vw;
     padding-bottom: 5vw;
   }
-  #box1 video {
+  #box1 img {
     object-fit: contain;
     height: 45vw;
     width: 45vw;
@@ -224,7 +224,7 @@ a:hover {
     height: 45vw;
     width: 45vw;
   }
-  #box3 video {
+  #box3 img {
     object-fit: contain;
     height: 45vw;
     width: 45vw;
@@ -321,7 +321,7 @@ a:hover {
     grid-area: 6 / 1 / 7 / 2;
   }
 
-  #box1 video {
+  #box1 img {
     object-fit: contain;
     height: 100vw;
     width: 100vw;
@@ -331,7 +331,7 @@ a:hover {
     height: 100vw;
     width: 100vw;
   }
-  #box3 video {
+  #box3 img {
     object-fit: contain;
     height: 100vw;
     width: 100vw;
