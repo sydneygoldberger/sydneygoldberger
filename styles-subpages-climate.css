@@ -104,17 +104,27 @@ a:hover {
 #box6 {
   grid-area: 3 / 2 / 4 / 3;
 }
-#box1 video {
+#box1 img {
   object-fit: contain;
   height: 30vw;
   width: 30vw;
 }
-#box2 video {
+#box2 img {
   object-fit: contain;
   height: 30vw;
   width: 30vw;
 }
 #box3 img {
+  object-fit: contain;
+  height: 30vw;
+  width: 30vw;
+}
+#box5 img {
+  object-fit: contain;
+  height: 30vw;
+  width: 30vw;
+}
+#box6 img {
   object-fit: contain;
   height: 30vw;
   width: 30vw;
@@ -138,7 +148,8 @@ a:hover {
   grid-template-rows: repeat(3, 30vw);
   grid-column-gap: 0.5vw;
   grid-row-gap: 0.5vw;
-  height: 60vw;
+  height: auto;
+  padding-bottom: 2vw;
 }
 #descriptionbox {
   width: 60.5vw;
@@ -207,12 +218,12 @@ a:hover {
   #work {
     display: none;
   }
-  #box1 video {
+  #box1 img {
     object-fit: contain;
     height: 45vw;
     width: 45vw;
   }
-  #box2 video {
+  #box2 img {
     object-fit: contain;
     height: 45vw;
     width: 45vw;
@@ -223,6 +234,16 @@ a:hover {
     width: 45vw;
   }
   #box4 img {
+    object-fit: contain;
+    height: 45vw;
+    width: 45vw;
+  }
+  #box5 img {
+    object-fit: contain;
+    height: 45vw;
+    width: 45vw;
+  }
+  #box6 img {
     object-fit: contain;
     height: 45vw;
     width: 45vw;
@@ -320,12 +341,12 @@ a:hover {
   #box6 {
     grid-area: 6 / 1 / 7 / 2;
   }
-  #box1 video {
+  #box1 img {
     object-fit: contain;
     height: 100vw;
     width: 100vw;
   }
-  #box2 video {
+  #box2 img {
     object-fit: contain;
     height: 100vw;
     width: 100vw;
@@ -336,6 +357,16 @@ a:hover {
     width: 100vw;
   }
   #box4 img {
+    object-fit: contain;
+    height: 100vw;
+    width: 100vw;
+  }
+  #box5 img {
+    object-fit: contain;
+    height: 100vw;
+    width: 100vw;
+  }
+  #box6 img {
     object-fit: contain;
     height: 100vw;
     width: 100vw;
@@ -352,8 +383,8 @@ a:hover {
     padding: 0vw;
     grid-template-columns: repeat(1, 100vw);
     grid-template-rows: repeat(6, 100vw);
-    grid-column-gap: 0vw;
-    grid-row-gap: 0vw;
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
     height: 100vh;
     padding-bottom: 5vw;
   }

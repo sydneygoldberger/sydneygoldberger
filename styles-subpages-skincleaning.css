@@ -179,6 +179,7 @@ a:hover {
   grid-column-gap: 0.5vw;
   grid-row-gap: 0.5vw;
   height: auto;
+  padding-bottom: 2vw;
 }
 #descriptionbox {
   width: 60.5vw;
