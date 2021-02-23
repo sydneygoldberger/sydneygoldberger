@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Ogg";
+  src: url("ogg-web/Ogg-Regular.woff2") format("woff2"),
+    url("ogg-web/Ogg-Regular.woff") format("woff");
+}
 body {
   margin: 0px;
   background-color: #f5f5f5;
