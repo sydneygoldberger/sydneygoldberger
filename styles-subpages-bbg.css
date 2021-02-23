@@ -9,6 +9,12 @@ body {
   font-size: 3.5vw;
   color: black;
 }
+#category1 {
+  color: black;
+}
+#category2 a {
+  color: #707070;
+}
 #grid {
   display: grid;
   grid-template-columns: 35vw 65vw;
@@ -16,10 +22,9 @@ body {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
-
 a {
   text-decoration: none;
-  color: #707070;
+  color: black;
 }
 a:hover {
   text-decoration: underline;
@@ -28,27 +33,36 @@ a:hover {
   font-size: calc(12px + 1vw);
   font-family: "Rubik", sans-serif;
   font-weight: 300;
-  position: relative;
-  top: 10px;
   color: #707070;
   display: contents;
 }
-#category1 a {
-  color: black;
-}
-#category2 {
-  color: black;
-}
-#category3 {
-  color: black;
-}
-#category1 {
-  margin-bottom: 10px;
-}
-#work {
+
+#bbg {
+  margin-top: 10px;
   font-size: calc(12px + 0.3vw);
   line-height: calc(12px + 1.5vw);
   color: black;
+  font-weight: 400;
+}
+#zebra {
+  font-size: calc(12px + 0.3vw);
+  line-height: calc(12px + 1.5vw);
+  color: #707070;
+}
+#climate {
+  font-size: calc(12px + 0.3vw);
+  line-height: calc(12px + 1.5vw);
+  color: #707070;
+}
+#skincleaning {
+  font-size: calc(12px + 0.3vw);
+  line-height: calc(12px + 1.5vw);
+  color: #707070;
+}
+#mindthegap {
+  font-size: calc(12px + 0.3vw);
+  line-height: calc(12px + 1.5vw);
+  color: #707070;
 }
 #leftColumn {
   grid-area: 1 / 1 / 2 / 2;
@@ -69,12 +83,16 @@ a:hover {
   grid-column-gap: 0.5vw;
   grid-row-gap: 0.5vw;
   height: auto;
+  padding-top: 35vw;
 }
 #textbox {
   width: 60vw;
   height: 30vw;
   background-color: lightgray;
   position: absolute;
+}
+#clickhere:hover {
+  text-decoration: underline;
 }
 #box1 {
   grid-area: 1 / 1 / 2 / 2;
@@ -94,7 +112,7 @@ a:hover {
 #box6 {
   grid-area: 3 / 2 / 4 / 3;
 }
-#box1 video {
+#box1 img {
   object-fit: contain;
   height: 30vw;
   width: 30vw;
@@ -104,7 +122,7 @@ a:hover {
   height: 30vw;
   width: 30vw;
 }
-#box3 video {
+#box3 img {
   object-fit: contain;
   height: 30vw;
   width: 30vw;
@@ -119,24 +137,56 @@ a:hover {
   height: 30vw;
   width: 30vw;
 }
+#box6 img {
+  object-fit: contain;
+  height: 30vw;
+  width: 30vw;
+}
+#box7 img {
+  object-fit: contain;
+  height: 30vw;
+  width: 30vw;
+}
+#box8 img {
+  object-fit: contain;
+  height: 30vw;
+  width: 30vw;
+}
+#box9 img {
+  object-fit: contain;
+  height: 30vw;
+  width: 30vw;
+}
+#box10 img {
+  object-fit: contain;
+  height: 30vw;
+  width: 30vw;
+}
+#box11 img {
+  object-fit: contain;
+  height: 30vw;
+  width: 30vw;
+}
+#box12 img {
+  object-fit: contain;
+  height: 30vw;
+  width: 30vw;
+}
 
-#box1:hover {
-  cursor: grabbing;
+#descriptionbox {
+  width: 60.5vw;
+  height: 30vw;
+  position: absolute;
+  left: 37vw;
+  top: 4vw;
 }
-#box2:hover {
-  cursor: grabbing;
-}
-#box3:hover {
-  cursor: grabbing;
-}
-#box4:hover {
-  cursor: grabbing;
-}
-#box5:hover {
-  cursor: grabbing;
-}
-#box6:hover {
-  cursor: grabbing;
+#description {
+  font-size: 1.8vw;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  position: relative;
+  color: black;
+  padding-left: 0.5vw;
 }
 
 @media (max-width: 700px) and (min-width: 531px) {
@@ -144,6 +194,38 @@ a:hover {
     padding-top: 5vw;
     font-size: 10vw;
     text-align: center;
+    width: 100vw;
+    margin: auto;
+  }
+  #bbg {
+    display: none;
+  }
+  #zebra {
+    display: none;
+  }
+  #climate {
+    display: none;
+  }
+  #skincleaning {
+    display: none;
+  }
+  #mindthegap {
+    display: none;
+  }
+  #descriptionbox {
+    width: 95vw;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 35vw;
+  }
+  #description {
+    font-size: 3vw;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    position: relative;
+    color: black;
+    padding-left: 6vw;
   }
   #grid {
     display: grid;
@@ -157,18 +239,23 @@ a:hover {
     width: 95vw;
     position: relative;
     padding-top: initial;
+    padding-left: 0vw;
   }
   #categorybucket {
     display: flex;
     flex-direction: row;
-    width: auto;
+    width: 60vw;
     justify-content: space-evenly;
     text-align: center;
-    position: relative;
     top: 10px;
+    margin-left: 15vw;
+  }
+  #category1 {
+    position: relative;
+    top: 4vw;
   }
   #category1 a {
-    color: black;
+    color: #39304f;
   }
   #work {
     display: none;
@@ -184,9 +271,9 @@ a:hover {
     grid-template-rows: repeat(3, 45vw);
     grid-column-gap: 0.5vw;
     grid-row-gap: 0.5vw;
-    padding-top: 7vw;
+    padding-top: 55vw;
   }
-  #box1 video {
+  #box1 img {
     object-fit: contain;
     height: 45vw;
     width: 45vw;
@@ -196,7 +283,7 @@ a:hover {
     height: 45vw;
     width: 45vw;
   }
-  #box3 video {
+  #box3 img {
     object-fit: contain;
     height: 45vw;
     width: 45vw;
@@ -211,6 +298,41 @@ a:hover {
     height: 45vw;
     width: 45vw;
   }
+  #box6 img {
+    object-fit: contain;
+    height: 45vw;
+    width: 45vw;
+  }
+  #box7 img {
+    object-fit: contain;
+    height: 45vw;
+    width: 45vw;
+  }
+  #box8 img {
+    object-fit: contain;
+    height: 45vw;
+    width: 45vw;
+  }
+  #box9 img {
+    object-fit: contain;
+    height: 45vw;
+    width: 45vw;
+  }
+  #box10 img {
+    object-fit: contain;
+    height: 45vw;
+    width: 45vw;
+  }
+  #box11 img {
+    object-fit: contain;
+    height: 45vw;
+    width: 45vw;
+  }
+  #box12 img {
+    object-fit: contain;
+    height: 45vw;
+    width: 45vw;
+  }
 }
 
 @media (max-width: 530px) {
@@ -218,6 +340,36 @@ a:hover {
     padding-top: 5vw;
     font-size: 10vw;
     text-align: center;
+  }
+  #bbg {
+    display: none;
+  }
+  #zebra {
+    display: none;
+  }
+  #climate {
+    display: none;
+  }
+  #skincleaning {
+    display: none;
+  }
+  #mindthegap {
+    display: none;
+  }
+  #descriptionbox {
+    width: 95vw;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 35vw;
+  }
+  #description {
+    font-size: 3.6vw;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    position: relative;
+    color: black;
+    padding-left: 6vw;
   }
   #grid {
     display: grid;
@@ -232,25 +384,23 @@ a:hover {
     position: relative;
     padding-top: initial;
   }
-  #categorybucket {
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    justify-content: space-evenly;
-    text-align: center;
-    padding: 0px;
-    position: relative;
-    top: 10px;
-    padding-bottom: 10px;
-  }
   #category1 a {
-    color: black;
+    color: #39304f;
   }
   #work {
     display: none;
   }
   #subHeader {
     font-size: calc(12px + 2vw);
+  }
+  #categorybucket {
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    justify-content: space-evenly;
+    text-align: center;
+    top: 10px;
+    margin-left: 15vw;
   }
   #rightColumn {
     grid-area: 2 / 1 / 3 / 2;
@@ -261,8 +411,8 @@ a:hover {
     grid-template-rows: repeat(6, 100vw);
     grid-column-gap: 0vw;
     grid-row-gap: 0vw;
-    height: 100vh;
-    padding-top: 0vw;
+    height: auto;
+    padding-top: 65vw;
   }
   #box1 {
     grid-area: 1 / 1 / 2 / 2;
@@ -283,7 +433,7 @@ a:hover {
     grid-area: 6 / 1 / 7 / 2;
   }
 
-  #box1 video {
+  #box1 img {
     object-fit: contain;
     height: 100vw;
     width: 100vw;
@@ -293,7 +443,7 @@ a:hover {
     height: 100vw;
     width: 100vw;
   }
-  #box3 video {
+  #box3 img {
     object-fit: contain;
     height: 100vw;
     width: 100vw;
@@ -304,6 +454,41 @@ a:hover {
     width: 100vw;
   }
   #box5 img {
+    object-fit: contain;
+    height: 100vw;
+    width: 100vw;
+  }
+  #box6 img {
+    object-fit: contain;
+    height: 100vw;
+    width: 100vw;
+  }
+  #box7 img {
+    object-fit: contain;
+    height: 100vw;
+    width: 100vw;
+  }
+  #box8 img {
+    object-fit: contain;
+    height: 100vw;
+    width: 100vw;
+  }
+  #box9 img {
+    object-fit: contain;
+    height: 100vw;
+    width: 100vw;
+  }
+  #box10 img {
+    object-fit: contain;
+    height: 100vw;
+    width: 100vw;
+  }
+  #box11 img {
+    object-fit: contain;
+    height: 100vw;
+    width: 100vw;
+  }
+  #box12 img {
     object-fit: contain;
     height: 100vw;
     width: 100vw;

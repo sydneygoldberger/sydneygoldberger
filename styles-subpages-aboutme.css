@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+  background-color: #f5f5f5;
+  padding: 0px;
+}
+#name {
+  font-family: "Ogg", serif;
+  font-weight: 300;
+  font-size: 3.5vw;
+  color: black;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 35vw 65vw;
+  grid-template-rows: 100%;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+#category1 a {
+  color: #707070;
+}
+#category2 a {
+  color: black;
+}
+#header a {
+  color: black;
+  text-decoration: none;
+}
+#header a:hover {
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+  color: #707070;
+}
+a:hover {
+  text-decoration: underline;
+}
+#subHeader {
+  font-size: calc(12px + 1vw);
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  /* top: 10px; */
+  color: #707070;
+  display: contents;
+}
+#bbg {
+  margin-top: 10px;
+  font-size: calc(12px + 0.3vw);
+  line-height: calc(12px + 1.5vw);
+  color: #707070;
+}
+#zebra {
+  font-size: calc(12px + 0.3vw);
+  line-height: calc(12px + 1.5vw);
+  color: #707070;
+}
+#climate {
+  font-size: calc(12px + 0.3vw);
+  line-height: calc(12px + 1.5vw);
+  color: #707070;
+}
+#skincleaning {
+  font-size: calc(12px + 0.3vw);
+  line-height: calc(12px + 1.5vw);
+  color: #707070;
+}
+#mindthegap {
+  font-size: calc(12px + 0.3vw);
+  line-height: calc(12px + 1.5vw);
+  color: #707070;
+}
+#leftColumn {
+  grid-area: 1 / 1 / 2 / 2;
+  padding-left: 2vw;
+  padding-top: 4vw;
+  height: auto;
+  position: fixed;
+  width: 100vw;
+}
+
+#descriptionbox {
+  width: 60.5vw;
+  height: auto;
+  position: absolute;
+  left: 37vw;
+  top: 4vw;
+}
+#description {
+  font-size: calc(12px + 1vw);
+  font-family: "Rubik", sans-serif;
+  line-height: calc(12px + 1.5vw);
+  font-weight: 300;
+  position: relative;
+  color: black;
+  padding-left: 0.5vw;
+}
+#header {
+  padding-left: 0.5vw;
+}
+
+@media (max-width: 700px) {
+  #name {
+    padding-top: 5vw;
+    font-size: 10vw;
+    text-align: center;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 20vh 80vw;
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+  }
+  #leftColumn {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 95vw;
+    position: relative;
+    padding-top: initial;
+  }
+  #categorybucket {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 10px;
+  }
+  #category1 a {
+    color: black;
+  }
+  #work {
+    display: none;
+  }
+  #subHeader {
+    font-size: calc(12px + 2vw);
+  }
+  #bbg {
+    display: none;
+  }
+  #zebra {
+    display: none;
+  }
+  #climate {
+    display: none;
+  }
+  #skincleaning {
+    display: none;
+  }
+  #mindthegap {
+    display: none;
+  }
+  #descriptionbox {
+    width: 90vw;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 35vw;
+    margin-left: 5vw;
+  }
+  #description {
+    font-size: calc(12px + 2vw);
+    line-height: calc(12px + 2.5vw);
+    font-family: "Rubik", sans-serif;
+    text-align: left;
+  }
+  #subHeader {
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    font-size: calc(12px + 2vw);
+  }
+  #work {
+    display: none;
+  }
+}
