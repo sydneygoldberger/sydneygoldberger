@@ -11,6 +11,7 @@ body {
 }
 #category1 {
   color: black;
+  font-weight: 400;
 }
 #category2 a {
   color: #707070;
@@ -30,37 +31,36 @@ a:hover {
   text-decoration: underline;
 }
 #subHeader {
-  font-size: calc(12px + 1vw);
+  font-size: calc(12px + 0.5vw);
   font-family: "Rubik", sans-serif;
   font-weight: 300;
   color: #707070;
   display: contents;
 }
 #bbg {
-  margin-top: 10px;
-  font-size: calc(12px + 0.3vw);
+  margin-top: -12px;
+  font-size: calc(12px + 0.2vw);
   line-height: calc(12px + 1.5vw);
   color: #707070;
 }
 #zebra {
-  font-size: calc(12px + 0.3vw);
+  font-size: calc(12px + 0.2vw);
   line-height: calc(12px + 1.5vw);
   color: #707070;
 }
 #climate {
-  font-size: calc(12px + 0.3vw);
+  font-size: calc(12px + 0.2vw);
   line-height: calc(12px + 1.5vw);
   color: #707070;
 }
 #skincleaning {
-  font-size: calc(12px + 0.3vw);
+  font-size: calc(12px + 0.2vw);
   line-height: calc(12px + 1.5vw);
-
   color: black;
   font-weight: 400;
 }
 #mindthegap {
-  font-size: calc(12px + 0.3vw);
+  font-size: calc(12px + 0.2vw);
   line-height: calc(12px + 1.5vw);
   color: #707070;
 }
@@ -72,23 +72,9 @@ a:hover {
   width: 100vw;
   padding-top: 2vw;
 }
-
-#rightColumn {
-  grid-area: 1 / 2 / 2 / 3;
-  padding-left: 2vw;
-  display: grid;
-  grid-template-columns: repeat(2, 30vw);
-  grid-template-rows: repeat(3, 30vw);
-  grid-column-gap: 0.5vw;
-  grid-row-gap: 0.5vw;
-  height: auto;
-  padding-top: 70vw;
-  padding-bottom: 2vw;
-}
 #textbox {
   width: 60vw;
   height: 30vw;
-  background-color: lightgray;
   position: absolute;
 }
 #clickhere:hover {
@@ -172,16 +158,29 @@ a:hover {
   height: 30vw;
   width: 30vw;
 }
-
-#descriptionbox {
-  width: 60.5vw;
-  height: 30vw;
-  position: absolute;
-  left: 37vw;
+#rightSideofPage {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   padding-top: 2vw;
 }
+#rightColumn {
+  padding-left: 2vw;
+  display: grid;
+  grid-template-columns: repeat(2, 30vw);
+  grid-template-rows: repeat(3, 30vw);
+  grid-column-gap: 0.5vw;
+  grid-row-gap: 0.5vw;
+  height: auto;
+}
+#descriptionbox {
+  width: 60.5vw;
+  height: auto;
+  padding-left: 2vw;
+}
 #description {
-  font-size: 1.8vw;
+  font-size: calc(12px + 0.5vw);
   font-family: "Rubik", sans-serif;
   font-weight: 300;
   position: relative;
@@ -194,8 +193,6 @@ a:hover {
     padding-top: 5vw;
     font-size: 10vw;
     text-align: center;
-    width: 100vw;
-    margin: auto;
   }
   #bbg {
     display: none;
@@ -212,21 +209,6 @@ a:hover {
   #mindthegap {
     display: none;
   }
-  #descriptionbox {
-    width: 95vw;
-    height: auto;
-    position: absolute;
-    left: 0px;
-    top: 35vw;
-  }
-  #description {
-    font-size: 3vw;
-    font-family: "Rubik", sans-serif;
-    font-weight: 300;
-    position: relative;
-    color: black;
-    padding-left: 6vw;
-  }
   #grid {
     display: grid;
     grid-template-columns: 100vw;
@@ -239,39 +221,21 @@ a:hover {
     width: 95vw;
     position: relative;
     padding-top: initial;
-    padding-left: 0vw;
   }
   #categorybucket {
     display: flex;
     flex-direction: row;
-    width: 60vw;
+    width: auto;
     justify-content: space-evenly;
     text-align: center;
-    top: 10px;
-    margin-left: 15vw;
-  }
-  #category1 {
     position: relative;
-    top: 4vw;
+    top: 10px;
   }
   #category1 a {
-    color: #39304f;
+    color: black;
   }
   #work {
     display: none;
-  }
-  #subHeader {
-    font-size: calc(12px + 2vw);
-  }
-  #rightColumn {
-    grid-area: 2 / 1 / 3 / 2;
-    display: grid;
-    margin-left: 3vw;
-    grid-template-columns: repeat(2, 45vw);
-    grid-template-rows: repeat(3, 45vw);
-    grid-column-gap: 0.5vw;
-    grid-row-gap: 0.5vw;
-    padding-top: 125vw;
   }
   #box1 img {
     object-fit: contain;
@@ -332,6 +296,29 @@ a:hover {
     object-fit: contain;
     height: 45vw;
     width: 45vw;
+  }
+  #rightSideofPage {
+    grid-area: 2 / 1 / 3 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #rightColumn {
+    display: grid;
+    margin-left: 3vw;
+    grid-template-columns: repeat(2, 45vw);
+    grid-template-rows: repeat(3, 45vw);
+    grid-column-gap: 0.5vw;
+    grid-row-gap: 0.5vw;
+    padding-bottom: 5vw;
+  }
+  #descriptionbox {
+    width: 95vw;
+    height: auto;
+  }
+  #description {
+    color: black;
+    padding-left: 3vw;
   }
 }
 
@@ -356,21 +343,6 @@ a:hover {
   #mindthegap {
     display: none;
   }
-  #descriptionbox {
-    width: 95vw;
-    height: auto;
-    position: absolute;
-    left: 0px;
-    top: 35vw;
-  }
-  #description {
-    font-size: 3.6vw;
-    font-family: "Rubik", sans-serif;
-    font-weight: 300;
-    position: relative;
-    color: black;
-    padding-left: 6vw;
-  }
   #grid {
     display: grid;
     grid-template-columns: 100vw;
@@ -385,34 +357,20 @@ a:hover {
     padding-top: initial;
   }
   #category1 a {
-    color: #39304f;
+    color: black;
+    font-weight: 400;
   }
   #work {
     display: none;
   }
-  #subHeader {
-    font-size: calc(12px + 2vw);
-  }
   #categorybucket {
     display: flex;
     flex-direction: row;
-    width: 60vw;
+    width: auto;
     justify-content: space-evenly;
     text-align: center;
+    position: relative;
     top: 10px;
-    margin-left: 15vw;
-  }
-  #rightColumn {
-    grid-area: 2 / 1 / 3 / 2;
-    display: grid;
-    margin-left: 0vw;
-    padding: 0vw;
-    grid-template-columns: repeat(1, 100vw);
-    grid-template-rows: repeat(6, 100vw);
-    grid-column-gap: 0vw;
-    grid-row-gap: 0vw;
-    height: auto;
-    padding-top: 165vw;
   }
   #box1 {
     grid-area: 1 / 1 / 2 / 2;
@@ -432,7 +390,6 @@ a:hover {
   #box6 {
     grid-area: 6 / 1 / 7 / 2;
   }
-
   #box1 img {
     object-fit: contain;
     height: 100vw;
@@ -492,5 +449,30 @@ a:hover {
     object-fit: contain;
     height: 100vw;
     width: 100vw;
+  }
+  #rightSideofPage {
+    grid-area: 2 / 1 / 3 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #rightColumn {
+    display: grid;
+    margin-left: 0vw;
+    padding: 0vw;
+    grid-template-columns: repeat(1, 100vw);
+    grid-template-rows: repeat(6, 100vw);
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+    height: auto;
+    padding-bottom: 5vw;
+  }
+  #descriptionbox {
+    width: 95vw;
+    height: auto;
+  }
+  #description {
+    color: black;
+    padding-left: 3vw;
   }
 }
