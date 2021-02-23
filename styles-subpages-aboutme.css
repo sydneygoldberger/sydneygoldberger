@@ -115,7 +115,7 @@ a:hover {
   font-weight: 300;
 }
 #headshot {
-  width: 23vw;
+  width: 20vw;
   padding-top: 2vw;
 }
 #clickhere {
@@ -180,11 +180,13 @@ a:hover {
   }
   #description {
     color: black;
+    padding-top: 6vw;
   }
   #header {
     font-weight: 300;
   }
   #headshot {
-    width: 40vw;
+    width: 30vw;
+    padding-top: 6vw;
   }
 }
