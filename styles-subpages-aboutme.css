@@ -40,15 +40,14 @@ a:hover {
   font-size: calc(12px + 1vw);
   font-family: "Rubik", sans-serif;
   font-weight: 300;
-  /* top: 10px; */
+  position: relative;
   color: #707070;
   display: contents;
 }
 #bbg {
-  margin-top: 10px;
+  margin-top: -12px;
   font-size: calc(12px + 0.3vw);
   line-height: calc(12px + 1.5vw);
-  color: #707070;
 }
 #zebra {
   font-size: calc(12px + 0.3vw);
@@ -73,10 +72,10 @@ a:hover {
 #leftColumn {
   grid-area: 1 / 1 / 2 / 2;
   padding-left: 2vw;
-  padding-top: 4vw;
   height: auto;
   position: fixed;
   width: 100vw;
+  padding-top: 2vw;
 }
 
 #descriptionbox {
@@ -84,7 +83,7 @@ a:hover {
   height: auto;
   position: absolute;
   left: 37vw;
-  top: 4vw;
+  padding-top: 2vw;
 }
 #description {
   font-size: calc(12px + 1vw);
@@ -97,6 +96,10 @@ a:hover {
 }
 #header {
   padding-left: 0.5vw;
+  font-size: calc(12px + 1vw);
+  font-family: "Rubik", sans-serif;
+  line-height: calc(12px + 1.5vw);
+  font-weight: 300;
 }
 
 @media (max-width: 700px) {
@@ -124,12 +127,14 @@ a:hover {
     width: auto;
     justify-content: space-evenly;
     text-align: center;
-    padding: 0px;
-    padding-bottom: 10px;
     position: relative;
     top: 10px;
+    padding-bottom: 10px;
   }
   #category1 a {
+    color: #707070;
+  }
+  #category2 a {
     color: black;
   }
   #work {
@@ -167,12 +172,15 @@ a:hover {
     font-family: "Rubik", sans-serif;
     text-align: left;
   }
-  #subHeader {
-    font-family: "Rubik", sans-serif;
-    text-align: center;
-    font-size: calc(12px + 2vw);
-  }
+
   #work {
     display: none;
+  }
+  #header {
+    padding-left: 0.5vw;
+    font-size: calc(12px + 2vw);
+    font-family: "Rubik", sans-serif;
+    line-height: calc(12px + 2.5vw);
+    font-weight: 300;
   }
 }

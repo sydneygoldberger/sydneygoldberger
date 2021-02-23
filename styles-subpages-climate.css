@@ -70,10 +70,10 @@ a:hover {
   height: auto;
   position: fixed;
   width: 100vw;
+  padding-top: 2vw;
 }
 
 #rightColumn {
-  padding-top: 4vw;
   grid-area: 1 / 2 / 2 / 3;
   padding-left: 2vw;
   display: grid;
@@ -83,11 +83,11 @@ a:hover {
   grid-row-gap: 0.5vw;
   height: 100vh;
   padding-top: 40vw;
+  padding-bottom: 2vw;
 }
 #textbox {
   width: 60vw;
   height: 30vw;
-  background-color: lightgray;
   position: absolute;
 }
 #clickhere:hover {
@@ -137,7 +137,7 @@ a:hover {
   height: 40vw;
   position: absolute;
   left: 37vw;
-  top: 4vw;
+  padding-top: 2vw;
 }
 #description {
   font-size: 1.8vw;
