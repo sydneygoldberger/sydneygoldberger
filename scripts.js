@@ -7,18 +7,18 @@ let  box6 = document.getElementById("box6");
 
 
 box1.onclick = function(){
-    window.location.href = "bbg.html";
+    window.location.href = "bbg";
 }
 box2.onclick = function(){
-    window.location.href = "zebra.html";
+    window.location.href = "zebra";
     console.log("hello");
 }
 box3.onclick = function(){
-    window.location.href = "climatechange.html";
+    window.location.href = "climatechange";
 }
 box4.onclick = function(){
-    window.location.href = "skincleaning.html";
+    window.location.href = "skincleaning";
 }
 box5.onclick = function(){
-    window.location.href = "mindthegap.html";
+    window.location.href = "mindthegap";
 }
