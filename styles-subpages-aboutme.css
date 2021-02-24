@@ -91,31 +91,25 @@ a:hover {
   display: flex;
 }
 #description {
-  font-size: calc(12px + 0.5vw);
+  font-size: calc(12px + 0.49vw);
   font-family: "Rubik", sans-serif;
   font-weight: 300;
   position: relative;
   color: black;
   padding-left: 2vw;
   padding-right: 3vw;
-  padding-top: 1vw;
+  padding-top: 2vw;
 }
 
 #description a {
   color: black;
 }
-#bottomBox {
-  font-size: calc(12px + 0.5vw);
-  font-family: "Rubik", sans-serif;
-  font-weight: 300;
-  line-height: calc(12px + 1.5vw);
-  width: 50%;
-}
+
 #header {
   font-weight: 300;
 }
 #headshot {
-  width: 22vw;
+  width: 19vw;
   padding-top: 2vw;
 }
 #clickhere {
