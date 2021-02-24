@@ -115,14 +115,14 @@ a:hover {
   font-weight: 300;
 }
 #headshot {
-  width: 20vw;
+  width: 22vw;
   padding-top: 2vw;
 }
 #clickhere {
   font-weight: 400;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) and (min-width: 371px) {
   #name {
     padding-top: 5vw;
     font-size: 10vw;
@@ -178,25 +178,92 @@ a:hover {
   #rightColumn {
     grid-area: 2 / 1 / 3 / 2;
   }
-  #description {
-    color: black;
-    padding-top: 6vw;
-  }
   #header {
     font-weight: 300;
   }
   #headshot {
     width: 40vw;
-    padding-top: 6vw;
   }
   #description {
-    font-size: calc(12px + 0.5vw);
-    font-family: "Rubik", sans-serif;
-    font-weight: 300;
-    position: relative;
     color: black;
-    padding-left: 2vw;
     padding-right: 3vw;
-    padding-top: 2vw;
+  }
+
+  #rightColumn {
+    padding-left: 3vw;
+    padding-top: 3vw;
+  }
+}
+
+@media (max-width: 370px) {
+  #name {
+    padding-top: 5vw;
+    font-size: 10vw;
+    text-align: center;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 20vh 80vw;
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+  }
+  #leftColumn {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 95vw;
+    position: relative;
+    padding-top: initial;
+  }
+  #categorybucket {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+    top: 10px;
+  }
+  #category1 a {
+    color: #707070;
+  }
+  #category2 a {
+    color: black;
+    font-weight: 400;
+  }
+  #work {
+    display: none;
+  }
+  #bbg {
+    display: none;
+  }
+  #zebra {
+    display: none;
+  }
+  #climate {
+    display: none;
+  }
+  #skincleaning {
+    display: none;
+  }
+  #mindthegap {
+    display: none;
+  }
+  #rightColumn {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  #header {
+    font-weight: 300;
+  }
+  #headshot {
+    width: 45vw;
+  }
+  #description {
+    color: black;
+    padding-right: 3vw;
+    font-size: calc(12px);
+  }
+
+  #rightColumn {
+    padding-left: 3vw;
   }
 }
