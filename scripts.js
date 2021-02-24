@@ -14,7 +14,7 @@ box2.onclick = function(){
     console.log("hello");
 }
 box3.onclick = function(){
-    window.location.href = "climateclock.html";
+    window.location.href = "climatechange.html";
 }
 box4.onclick = function(){
     window.location.href = "skincleaning.html";
