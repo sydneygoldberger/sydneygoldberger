@@ -1,0 +1,242 @@
+#temporary {
+  height: 15vw;
+}
+
+#wholepage {
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+#slider-box {
+  line-height: 0.5vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 0.8em;
+  letter-spacing: 0.7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 10vw;
+  width: 80vw;
+  margin: auto;
+}
+
+#randomButton {
+  position: relative;
+  top: 3vw;
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #c7c7c7;
+}
+button {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+  background-color: white;
+  border: black 1.5px solid;
+  color: black;
+  padding: 1vw;
+  text-align: center;
+  position: relative;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+}
+
+#column1 {
+  text-align: left;
+  position: relative;
+  bottom: 100px;
+}
+#column2 {
+  text-align: left;
+  position: relative;
+  bottom: 100px;
+}
+#column3 {
+  text-align: left;
+  position: relative;
+  bottom: 100px;
+}
+
+.maincontainer {
+  margin: auto;
+  transform: scale(0.7, 0.7);
+  margin-left: 35vw;
+}
+
+#logo {
+  position: relative;
+  right: 410px;
+  bottom: 10px;
+  display: block;
+  /* transform: scale(0.3, 0.3); */
+}
+
+.maincontainer p {
+  font-family: "Playfair Display", serif;
+  font-size: 125px;
+  line-height: 110px;
+}
+
+input[type="range"] {
+  width: auto;
+}
+
+#Layer_1 {
+  max-width: 1000px;
+  position: fixed;
+  z-index: -1;
+}
+#curve1 {
+  transform: scale(0.2, 0.2) rotate(-40deg);
+  transform-origin: 20% 40%;
+  position: relative;
+}
+
+#Layer_2 {
+  max-width: 1000px;
+  position: fixed;
+  z-index: 1;
+}
+#curve2 {
+  transform: scale(0.2, 0.2) rotate(15deg);
+  transform-origin: 39% 29.5%;
+}
+
+#Layer_3 {
+  max-width: 1000px;
+  position: fixed;
+  z-index: -1;
+}
+#curve3 {
+  transform: scale(0.2, 0.2) rotate(65deg);
+  transform-origin: 57% 36.3%;
+}
+
+#Layer_4 {
+  max-width: 1000px;
+  position: fixed;
+}
+#curve4 {
+  transform: scale(0.2, 0.2) rotate(138deg);
+  transform-origin: 55.1% 49.4%;
+}
+
+#Layer_5 {
+  max-width: 1000px;
+  z-index: -1;
+  position: fixed;
+  z-index: 1;
+}
+#curve5 {
+  transform: scale(0.2, 0.2) rotate(190deg);
+  transform-origin: 45% 53.5%;
+}
+
+#Layer_6 {
+  max-width: 1000px;
+  position: fixed;
+  z-index: -1;
+}
+#curve6 {
+  transform: scale(0.2, 0.2) rotate(260deg);
+  transform-origin: 29% 52%;
+  z-index: -1;
+}
+
+#line1 {
+  color: black;
+  letter-spacing: -1px;
+}
+
+#line2 {
+  color: black;
+  position: relative;
+  bottom: 2px;
+}
+
+#line3 {
+  position: relative;
+  bottom: 2px;
+  color: black;
+}
+
+.homebutton {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  font-style: normal;
+  width: auto;
+  height: auto;
+  text-align: center;
+  border-width: thin;
+  position: fixed;
+  right: 40vw;
+  bottom: 3vw;
+}
+.homebutton a {
+  text-decoration: none;
+}
+.homebutton p {
+  color: black;
+  text-align: right;
+}
+
+#centerCirlce {
+  width: 37px;
+  height: 37px;
+  border-radius: 50px;
+  background-color: white;
+  position: relative;
+  top: 315px;
+  right: 214px;
+  border: 2px solid white;
+  display: inline-block;
+  z-index: 2;
+}
+
+@media (min-width: 701px) and (max-width: 750px) {
+  .maincontainer {
+    transform: scale(0.7, 0.7);
+    margin-left: 30vw;
+  }
+  button {
+    transform: scale(0.7, 0.7);
+  }
+}
+
+@media (max-width: 701px) {
+  .maincontainer {
+    transform: scale(0.3, 0.3);
+    margin-left: 10vw;
+  }
+  #slider-box {
+    transform: scale(0.7, 0.7);
+    position: relative;
+    bottom: 100px;
+    width: 100vw;
+  }
+  /* #logo {
+    position: relative;
+    right: 610px;
+    bottom: 10px;
+  }
+  #centerCirlce {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+    top: 315px;
+    right: 414px;
+  } */
+}
