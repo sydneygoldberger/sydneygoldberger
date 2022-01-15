@@ -1,0 +1,268 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  /* overflow-y: hidden; */
+}
+
+#pageBox {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 40%60%;
+  grid-template-rows: 100%;
+  gap: 0px 0px;
+  grid-template-areas: ". .";
+}
+#leftSide {
+  width: 40vw;
+  height: 97.4vh;
+  background-color: #ffef9f;
+  font-size: calc(10px + 0.4vw);
+  padding-left: 2.5vw;
+  padding-top: 2vw;
+}
+#introText {
+  width: 30vw;
+}
+#rightSide {
+  width: 60vw;
+  height: 100vh;
+  background-color: #7acf93;
+}
+
+#questionBox {
+  font-size: calc(10px + 0.4vw);
+  color: #7777c9;
+}
+#subQuestionBox {
+  font-weight: 400;
+}
+#wfh {
+  height: 30px;
+  font-family: "Rubik", sans-serif;
+  background: none;
+  color: black;
+  border: 1px black solid;
+  position: relative;
+  width: fit-content;
+  font-size: calc(10px + 0.4vw);
+  font-weight: 400;
+  left: -10px;
+  top: calc(-10px - 0.2vw);
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 60px;
+}
+
+#submit {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 60px;
+  height: 30px;
+  background: none;
+  color: black;
+  border: 1px black solid;
+  position: relative;
+  left: 3px;
+  font-size: calc(10px + 0.4vw);
+  font-weight: 400;
+  top: calc(-10px - 0.2vw);
+  background: none;
+}
+
+#submit:hover {
+  cursor: grabbing;
+  border: 1px solid #7777c9;
+  color: #7777c9;
+}
+
+button {
+  font-size: calc(10px + 0.4vw);
+  font-weight: 400;
+}
+#numberInput {
+  width: 40px;
+  border: none;
+  padding: 7px;
+  background: none;
+  color: black;
+  border: 1px black solid;
+  position: relative;
+  visibility: hidden;
+  top: 9px;
+  height: 10px;
+}
+
+input {
+  font-weight: 400;
+}
+
+#questionChange1 {
+  background: none;
+  color: black;
+  font-weight: 400;
+  position: relative;
+  visibility: hidden;
+  left: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+#questionChange2 {
+  position: relative;
+  top: 10px;
+  left: 2px;
+  color: black;
+}
+
+#questionOptionBox {
+  padding-top: 2vw;
+}
+
+#createSticker {
+  background: none;
+  border: 1px black solid;
+  position: relative;
+  font-size: calc(10px + 0.4vw);
+  font-weight: 400;
+  background: none;
+  color: black;
+  visibility: hidden;
+  left: -12px;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 60px;
+}
+
+#createSticker:hover {
+  cursor: grabbing;
+  border: 1px solid #7777c9;
+  color: #7777c9;
+}
+
+#saveSticker {
+  height: 30px;
+  background: none;
+  border: 1px black solid;
+  position: relative;
+  font-size: calc(10px + 0.4vw);
+  font-weight: 400;
+  background: none;
+  color: black;
+  visibility: hidden;
+  position: relative;
+  left: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 60px;
+}
+
+#saveSticker:hover {
+  cursor: grabbing;
+  border: 1px solid #7777c9;
+  color: #7777c9;
+}
+
+#introQuestionBox {
+  color: black;
+}
+
+#questionsIntro {
+  color: black;
+}
+
+#step3 {
+  color: black;
+  position: relative;
+  top: 5px;
+  visibility: hidden;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 10px;
+  top: 10px;
+}
+#step1 {
+  color: black;
+  font-weight: 400;
+  position: relative;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 10px;
+  top: 10px;
+}
+#step2 {
+  color: black;
+  font-weight: 400;
+  position: relative;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 10px;
+  top: 10px;
+}
+
+#circle {
+  width: 35vw;
+  height: 35vw;
+  background-color: white;
+  border-radius: 30vw;
+  position: relative;
+  margin: auto;
+  top: 25%;
+}
+
+#title {
+  font-size: calc(25px);
+}
+
+@media screen and (max-width: 910px) {
+  #pageBox {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 57% 43%;
+    gap: 0px 0px;
+    grid-template-areas:
+      "."
+      ".";
+  }
+  #leftSide {
+    width: 93vw;
+    height: 57vh;
+    background-color: #ffef9f;
+    font-size: calc(10px + 0.4vw);
+    padding: 3vw;
+    padding-top: 3vw;
+  }
+  #introText {
+    width: 80vw;
+  }
+  #rightSide {
+    width: 100vw;
+    height: 100vh;
+    background-color: #7acf93;
+  }
+
+  #wfh {
+    top: 0px;
+  }
+
+  #submit {
+    top: 0px;
+  }
+  #leftSide {
+    padding-left: 4vw;
+    padding-top: 4vw;
+  }
+  title {
+    font-size: 20px;
+  }
+}
