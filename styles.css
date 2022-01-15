@@ -284,18 +284,6 @@ img {
   /* transition: background-color 0.3s ease; */
 }
 
-.arrow1:hover,
-.arrow2:hover,
-.arrow3:hover,
-.arrow4:hover,
-.arrow5:hover,
-.arrow6:hover,
-.arrow7:hover {
-  cursor: pointer;
-  background-color: var(--transparent-grey);
-  color: white;
-}
-
 #next1,
 #next2,
 #next3,
