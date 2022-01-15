@@ -33,7 +33,7 @@ html {
 
 #pageBox {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0px;
   background-color: white;
   display: grid;
@@ -184,7 +184,7 @@ a:hover {
   display: none;
 }
 
-#aboutBoxMobile {
+#mobileAboutBox {
   display: none;
 }
 
@@ -815,7 +815,6 @@ img {
     display: contents;
     padding-top: 0px;
     margin-top: 0px;
-    height: fit-content;
     top: 0px;
   }
 
@@ -841,8 +840,8 @@ img {
     position: fixed;
     grid-area: 1 / 1 / 2 / 2;
     width: 100%;
-    z-index: 1;
-    height: fit-content;
+    z-index: 2;
+    height: auto;
     background-color: white;
   }
 
@@ -875,12 +874,26 @@ img {
   }
 
   #aboutBoxAbout {
-    font-size: 1.3em;
-    line-height: 1.05;
-    line-height: 1;
-    width: calc(100% - 70px);
-    height: fit-content;
+    display: none;
   }
+
+  #mobileAboutBox {
+    display: contents;
+  }
+
+  #mobileAbout {
+    width: calc(100vw - 50px);
+    padding-right: 25px;
+    padding-left: 25px;
+    position: relative;
+    top: 150px;
+    font-family: "Obbjet-Sans", sans-serif;
+    font-size: 1.17em;
+    line-height: 1.1;
+    z-index: 0;
+    height: 100px;
+  }
+
   #contactBoxMobile a {
     color: #0d8d6f;
   }
