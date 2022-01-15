@@ -1,0 +1,512 @@
+@import url("https://p.typekit.net/p.css?s=1&k=ini7pqm&ht=tk&f=37746.37747.37748.37749.37750.37751.37752.37753.37754.37755.37756.37757.37758.37759&a=52075374&app=typekit&e=css");
+
+@font-face {
+  font-family: "urbane";
+  src: url("https://use.typekit.net/af/d69d3b/00000000000000007735c098/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/d69d3b/00000000000000007735c098/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/d69d3b/00000000000000007735c098/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "urbane";
+  src: url("https://use.typekit.net/af/62b589/00000000000000007735c09a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/62b589/00000000000000007735c09a/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/62b589/00000000000000007735c09a/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "urbane";
+  src: url("https://use.typekit.net/af/6b9548/00000000000000007735c09d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/6b9548/00000000000000007735c09d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/6b9548/00000000000000007735c09d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "urbane";
+  src: url("https://use.typekit.net/af/cd86df/00000000000000007735c09f/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/cd86df/00000000000000007735c09f/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/cd86df/00000000000000007735c09f/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "urbane";
+  src: url("https://use.typekit.net/af/308ea8/00000000000000007735c0a2/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/308ea8/00000000000000007735c0a2/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/308ea8/00000000000000007735c0a2/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "urbane";
+  src: url("https://use.typekit.net/af/8c9b19/00000000000000007735c0a3/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/8c9b19/00000000000000007735c0a3/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/8c9b19/00000000000000007735c0a3/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "urbane";
+  src: url("https://use.typekit.net/af/8ccf38/00000000000000007735c0a5/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/8ccf38/00000000000000007735c0a5/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/8ccf38/00000000000000007735c0a5/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "urbane";
+  src: url("https://use.typekit.net/af/fcf8ed/00000000000000007735c0a6/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/fcf8ed/00000000000000007735c0a6/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/fcf8ed/00000000000000007735c0a6/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "urbane";
+  src: url("https://use.typekit.net/af/254f88/00000000000000007735c0a7/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/254f88/00000000000000007735c0a7/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/254f88/00000000000000007735c0a7/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "urbane";
+  src: url("https://use.typekit.net/af/d6a650/00000000000000007735c0a8/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/d6a650/00000000000000007735c0a8/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/d6a650/00000000000000007735c0a8/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "urbane";
+  src: url("https://use.typekit.net/af/decad5/00000000000000007735c0a9/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/decad5/00000000000000007735c0a9/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/decad5/00000000000000007735c0a9/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "urbane";
+  src: url("https://use.typekit.net/af/b3966b/00000000000000007735c0aa/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/b3966b/00000000000000007735c0aa/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/b3966b/00000000000000007735c0aa/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "urbane";
+  src: url("https://use.typekit.net/af/c04442/00000000000000007735c0ab/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/c04442/00000000000000007735c0ab/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/c04442/00000000000000007735c0ab/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "urbane";
+  src: url("https://use.typekit.net/af/70cbfd/00000000000000007735c0ac/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/70cbfd/00000000000000007735c0ac/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/70cbfd/00000000000000007735c0ac/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 100;
+}
+body {
+  margin-bottom: 2vw;
+}
+body,
+input,
+button {
+  font-family: "urbane", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: calc(12px + 0.2vw);
+  padding-left: 2vw;
+}
+h2 {
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+canvas {
+  border: 1px solid #aaa;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 1;
+}
+#mynumberInput {
+  width: 80px;
+  height: fit-content;
+  padding: 0px;
+  font-family: "urbane";
+  font-weight: 500;
+  border: solid 0.5px #000;
+  z-index: 1;
+}
+
+.spinner-button {
+  position: absolute;
+  cursor: default;
+  z-index: 2;
+  background-color: #ccc;
+  width: 14.5px;
+  text-align: center;
+  margin: 0px;
+  pointer-events: none;
+  height: 10px;
+  line-height: 10px;
+}
+
+#inc-button {
+  left: 46px;
+  top: 10.5px;
+}
+
+#dec-button {
+  left: 46px;
+  top: 20.5px;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 6px;
+  background: none;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+select {
+  padding: 6px;
+}
+button:hover {
+  background: black;
+  color: white;
+}
+button:hover:active {
+  background: #cee;
+}
+
+#webTitle {
+  /* font-size: calc(12px + 0.9vw); */
+  font-weight: 500;
+  letter-spacing: 0.005px;
+  font-family: "urbane", sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-top: 1vw;
+}
+#title {
+  text-decoration: none solid black;
+  font-size: calc(12px + 0.4vw);
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-family: "urbane", sans-serif;
+}
+#italic {
+  /* font-style: italic; */
+  font-weight: 600;
+}
+#subtitle {
+  font-weight: 500;
+}
+#indent {
+  position: relative;
+  /* left: 2vw; */
+  padding-top: 10px;
+}
+
+#spacing {
+  height: 10px;
+}
+#rightEyeBox {
+  padding-top: 10px;
+}
+#leftEyeBox {
+  padding-top: 10px;
+}
+
+.white {
+  background-color: #ffffff;
+  border: 1px black solid;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.black2 {
+  background-color: black;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.white:hover {
+  background-color: white;
+  /* border: 4px solid black; */
+}
+.black2:hover {
+  background-color: black;
+  /* border: 4px solid black; */
+}
+
+.black {
+  background-color: black;
+  border: 4px solid black;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.black:hover {
+  background-color: black;
+  border: 4px solid black;
+}
+
+.babyblue {
+  background-color: #5a85f4;
+  border: 4px solid #5a85f4;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.babyblue:hover {
+  background-color: #5a85f4;
+  border: 4px solid #5a85f4;
+}
+
+.lightgreen {
+  background-color: #a9ea9f;
+  border: 4px solid #a9ea9f;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.lightgreen:hover {
+  background-color: #a9ea9f;
+  border: 4px solid #a9ea9f;
+}
+
+.green {
+  background-color: #2eb843;
+  border: 4px solid #2eb843;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.green:hover {
+  background-color: #2eb843;
+  border: 4px solid #2eb843;
+}
+
+/* .greyblue {
+  background-color: #a9cbd9;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+} */
+
+.pink {
+  background-color: #ca3890;
+  border: 4px solid #ca3890;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.pink:hover {
+  background-color: #ca3890;
+  border: 4px solid #ca3890;
+}
+
+.aqua {
+  background-color: #5ed8e9;
+  border: 4px solid #5ed8e9;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.aqua:hover {
+  background-color: #5ed8e9;
+  border: 4px solid #5ed8e9;
+}
+
+/* .navy {
+  background-color: #323683;
+  border: 4px solid #323683;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.navy:hover {
+  background-color: #323683;
+  border: 4px solid #323683;
+} */
+
+.purple {
+  background-color: #9491fa;
+  border: 4px solid #9491fa;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.purple:hover {
+  background-color: #9491fa;
+  border: 4px solid #9491fa;
+}
+
+.yellow {
+  background-color: #ffd80a;
+  border: 4px solid #ffd80a;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.yellow:hover {
+  background-color: #ffd80a;
+  border: 4px solid #ffd80a;
+}
+
+.orange {
+  background-color: #e98a3c;
+  border: 4px solid #e98a3c;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.orange:hover {
+  background-color: #e98a3c;
+  border: 4px solid #e98a3c;
+}
+
+.red {
+  background-color: #c2311d;
+  border: 4px solid #c2311d;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.red:hover {
+  background-color: #c2311d;
+  border: 4px solid #c2311d;
+}
+
+.lightpink {
+  background-color: #edc1dc;
+  border: 4px solid #edc1dc;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.lightpink:hover {
+  background-color: #edc1dc;
+  border: 4px solid #edc1dc;
+}
+
+#svg {
+  display: none;
+}
+
+#svg2 {
+  display: none;
+}
+
+#svg3 {
+  display: none;
+}
+#svg4 {
+  display: none;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 55vw;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+  #grid {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  #grid {
+    width: 98vw;
+  }
+  body,
+  input,
+  button {
+    font-size: calc(12px);
+  }
+}
