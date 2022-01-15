@@ -33,7 +33,7 @@ html {
 
 #pageBox {
   width: 100vw;
-  /* height: 100vh; */
+  height: 100vh;
   margin: 0px;
   background-color: white;
   display: grid;
