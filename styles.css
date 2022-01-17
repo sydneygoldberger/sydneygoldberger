@@ -69,14 +69,14 @@ hr {
 #smallText {
   font-family: "Objet-Sans", sans-serif;
   font-size: 11px;
-  color: #989898;
+  color: #b1b1b1;
   padding-bottom: 0px;
 }
 
 #smallTextMobile {
   font-family: "Objet-Sans", sans-serif;
   font-size: 0.8em;
-  color: #989898;
+  color: #b1b1b1;
   padding-bottom: 0px;
 }
 
@@ -90,7 +90,7 @@ a:hover {
 }
 
 #links {
-  font-family: "Elizeth", serif;
+  font-family: "Objet-Sans", sans-serif;
   line-height: 1.3;
   text-decoration: none;
   font-size: 0.95em;
@@ -741,10 +741,14 @@ img {
   color: #0d8d6f;
 }
 #fadeout {
-  color: #b0b0b0;
+  color: #b1b1b1;
 }
 
 #projectCarousel2 {
+  margin-top: 25px;
+}
+
+#projectCarousel2Imennse {
   margin-top: 25px;
 }
 
@@ -886,6 +890,12 @@ img {
 
   #sansText {
     font-size: 1.2em;
+    line-height: 1.1;
+  }
+
+  #links {
+    font-size: 0.98em;
+    letter-spacing: -0.5px;
     line-height: 1.1;
   }
 
@@ -1410,7 +1420,7 @@ img {
     right: 25px;
   }
 
-  #projectCarousel2 {
+  #projectCarousel2Imennse {
     display: none;
   }
 
