@@ -856,7 +856,7 @@ img {
     width: calc(100% - 30px);
     top: 0px;
     margin-top: 0px;
-    font-size: 1.5em;
+    font-size: 1.1em;
     line-height: 1;
     /* font-weight: lighter; */
   }
@@ -894,13 +894,13 @@ img {
   }
 
   #links {
-    font-size: 0.98em;
+    font-size: 0.96em;
     letter-spacing: -0.5px;
     line-height: 1.1;
   }
 
   #sansText a {
-    font-size: 0.85em;
+    font-size: 0.8em;
     line-height: 1.1;
     color: #0d8d6f;
   }
@@ -941,7 +941,7 @@ img {
 
   #contactBoxMobile {
     display: contents;
-    font-size: 1.1em;
+    font-size: 0.94em;
     line-height: 1.05;
   }
 
