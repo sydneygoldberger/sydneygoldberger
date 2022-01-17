@@ -67,6 +67,8 @@ image03.onclick = function(){
     modalImg.style.position = "relative";
     modalImg.style.left = "-5vw";
     modalImg.src = this.src;
+    modalImg.style.backgroundColor = "#1a1a1a";
+
 }
 
 image04.onclick = function(){
@@ -76,6 +78,7 @@ image04.onclick = function(){
     modalImg.style.position = "relative";
     modalImg.style.left = "-5vw";
     modalImg.src = this.src;
+    modalImg.style.backgroundColor = "#1a1a1a";
 }
 
 image05.onclick = function(){
@@ -85,6 +88,7 @@ image05.onclick = function(){
     modalImg.style.position = "relative";
     modalImg.style.left = "-5vw";
     modalImg.src = this.src;
+    modalImg.style.backgroundColor = "#1a1a1a";
 }
 
 image06.onclick = function(){
@@ -94,14 +98,15 @@ image06.onclick = function(){
     modalImg.style.position = "relative";
     modalImg.style.left = "-5vw";
     modalImg.src = this.src;
+    modalImg.style.backgroundColor = "#1a1a1a";
 }
 
 image07.onclick = function(){
     modal.style.display = "inline-block";
     modalImg.style.height = "fit-content";
-    modalImg.style.width = "50vw";
+    modalImg.style.width = "48vw";
     modalImg.style.position = "relative";
-    modalImg.style.left = "12vw";
+    modalImg.style.left = "15vw";
     modalImg.src = this.src;
 }
 

@@ -76,9 +76,9 @@ image03.onclick = function(){
 image04.onclick = function(){
     modal.style.display = "inline-block";
     modalImg.style.height = "fit-content";
-    modalImg.style.width = "65vw";
+    modalImg.style.width = "60vw";
     modalImg.style.position = "relative";
-    modalImg.style.left = "3vw";
+    modalImg.style.left = "5vw";
     modalImg.src = this.src;
 }
 
@@ -93,10 +93,10 @@ image05.onclick = function(){
 
 image06.onclick = function(){
     modal.style.display = "inline-block";
-    modalImg.style.width = "45vw";
+    modalImg.style.width = "40vw";
     modalImg.style.height = "fit-content";
     modalImg.style.position = "relative";
-    modalImg.style.left = "12vw";
+    modalImg.style.left = "15vw";
     modalImg.src = this.src;
 }
 

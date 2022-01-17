@@ -83,37 +83,37 @@ image03.onclick = function(){
 
 image04.onclick = function(){
     modal.style.display = "inline-block";
-    modalImg.style.width = "50vw";
+    modalImg.style.width = "30vw";
     modalImg.style.height = "fit-content";
     modalImg.style.position = "relative";
-    modalImg.style.left = "10vw";
+    modalImg.style.left = "20vw";
     modalImg.src = this.src;
 }
 
 image05.onclick = function(){
     modal.style.display = "inline-block";
-    modalImg.style.width = "50vw";
+    modalImg.style.width = "30vw";
     modalImg.style.height = "fit-content";
     modalImg.style.position = "relative";
-    modalImg.style.left = "10vw";
+    modalImg.style.left = "20vw";
     modalImg.src = this.src;
 }
 
 image06.onclick = function(){
     modal.style.display = "inline-block";
-    modalImg.style.width = "50vw";
+    modalImg.style.width = "30vw";
     modalImg.style.height = "fit-content";
     modalImg.style.position = "relative";
-    modalImg.style.left = "10vw";
+    modalImg.style.left = "20vw";
     modalImg.src = this.src;
 }
 
 image07.onclick = function(){
     modal.style.display = "inline-block";
-    modalImg.style.width = "50vw";
+    modalImg.style.width = "30vw";
     modalImg.style.height = "fit-content";
     modalImg.style.position = "relative";
-    modalImg.style.left = "10vw";
+    modalImg.style.left = "20vw";
     modalImg.src = this.src;
 }
 
@@ -128,11 +128,10 @@ image08.onclick = function(){
 
 image09.onclick = function(){
     modal.style.display = "inline-block";
-    modalImg.src = this.src;
-    modalImg.style.width = "50vw";
+    modalImg.style.width = "35vw";
     modalImg.style.height = "fit-content";
     modalImg.style.position = "relative";
-    modalImg.style.left = "15vw";
+    modalImg.style.left = "20vw";
     modalImg.src = this.src;
 }
 
@@ -147,44 +146,47 @@ image10.onclick = function(){
 
 image11.onclick = function(){
     modal.style.display = "inline-block";
-    modalImg.style.width = "50vw";
+    modalImg.style.width = "35vw";
+    modalImg.style.height = "fit-content";
+    modalImg.style.position = "relative";
+    modalImg.style.left = "20vw";
+    modalImg.src = this.src;
+}
+
+image12.onclick = function(){
+    modal.style.display = "inline-block";
+    modalImg.style.width = "35vw";
+    modalImg.style.height = "fit-content";
+    modalImg.style.position = "relative";
+    modalImg.style.left = "20vw";
+    modalImg.src = this.src;
+}
+
+image13.onclick = function(){
+    modal.style.display = "inline-block";
+    modalImg.style.width = "40vw";
     modalImg.style.height = "fit-content";
     modalImg.style.position = "relative";
     modalImg.style.left = "15vw";
     modalImg.src = this.src;
 }
 
-image12.onclick = function(){
-    modal.style.display = "inline-block";
-    modalImg.src = this.src;
-    modalImg.style.height = "fit-content";
-    modalImg.style.width = "50vw";
-    modalImg.style.left = "10vw";
-}
-
-image13.onclick = function(){
-    modal.style.display = "inline-block";
-    modalImg.src = this.src;
-    modalImg.style.height = "fit-content";
-    modalImg.style.width = "65vw";
-    modalImg.style.left = "2vw";
-}
 
 image14.onclick = function(){
     modal.style.display = "inline-block";
-    modalImg.style.width = "50vw";
-    modalImg.style.position = "relative";
-    modalImg.style.left = "12vw";
+    modalImg.style.width = "35vw";
     modalImg.style.height = "fit-content";
+    modalImg.style.position = "relative";
+    modalImg.style.left = "20vw";
     modalImg.src = this.src;
 }
 
 image15.onclick = function(){
     modal.style.display = "inline-block";
-    modalImg.style.width = "50vw";
-    modalImg.style.position = "relative";
+    modalImg.style.width = "35vw";
     modalImg.style.height = "fit-content";
-    modalImg.style.left = "12vw";
+    modalImg.style.position = "relative";
+    modalImg.style.left = "20vw";
     modalImg.src = this.src;
 }
 
@@ -199,19 +201,19 @@ image16.onclick = function(){
 
 image17.onclick = function(){
     modal.style.display = "inline-block";
-    modalImg.style.width = "60vw";
+    modalImg.style.width = "45vw";
     modalImg.style.height = "fit-content";
     modalImg.style.position = "relative";
-    modalImg.style.left = "6vw";
+    modalImg.style.left = "15vw";
     modalImg.src = this.src;
 }
 image18.onclick = function(){
     modal.style.display = "inline-block";
-    modalImg.style.width = "75vw";
+    modalImg.style.width = "60vw";
     modalImg.style.position = "relative";
     modalImg.style.height = "fit-content";
     modalImg.style.backgroundColor = "white";
-    modalImg.style.left = "-2vw";
+    modalImg.style.left = "5vw";
     modalImg.src = this.src;
 }
 
