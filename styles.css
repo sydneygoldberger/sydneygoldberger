@@ -881,6 +881,10 @@ img {
     line-height: 1.1;
   }
 
+  #aboutDescriptionMobile {
+    font-size: 1.4em;
+  }
+
   #links {
     font-size: 0.9em;
     letter-spacing: -0.5px;
