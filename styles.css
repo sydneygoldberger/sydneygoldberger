@@ -344,7 +344,7 @@ img {
 }
 
 .projectPhoto:hover {
-  cursor: grabbing;
+  cursor: zoom-in;
 }
 
 .projectPhotoNarrow {
@@ -696,7 +696,7 @@ img {
 .close:focus {
   color: white;
   text-decoration: none;
-  cursor: pointer;
+  cursor: grabbing;
 }
 
 .projectImage {
