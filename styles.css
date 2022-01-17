@@ -344,7 +344,7 @@ img {
 }
 
 .projectPhoto:hover {
-  cursor: zoom-in;
+  cursor: grabbing;
 }
 
 .projectPhotoNarrow {

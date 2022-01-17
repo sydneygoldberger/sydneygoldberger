@@ -51,12 +51,18 @@ image01.onclick = function(){
     modal.style.display = "inline-block";
     modalImg.src = this.src;
     modalImg.style.height = "fit-content";
+    modalImg.style.width = "65vw";
+    modalImg.style.position = "relative";
+    modalImg.style.left = "5vw";
 }
 
 image02.onclick = function(){
     modal.style.display = "inline-block";
     modalImg.src = this.src;
     modalImg.style.height = "fit-content";
+    modalImg.style.width = "65vw";
+    modalImg.style.position = "relative";
+    modalImg.style.left = "5vw";
 }
 
 image03.onclick = function(){
@@ -64,25 +70,35 @@ image03.onclick = function(){
     modalImg.src = this.src;
     modalImg.style.backgroundColor = "white";
     modalImg.style.height = "fit-content";
+    modalImg.style.width = "55vw";
+    modalImg.style.position = "relative";
+    modalImg.style.left = "10vw";
 }
 
 image04.onclick = function(){
     modal.style.display = "inline-block";
     modalImg.src = this.src;
     modalImg.style.backgroundColor = "white";
+    modalImg.style.height = "fit-content";
+    modalImg.style.width = "55vw";
+    modalImg.style.position = "relative";
+    modalImg.style.left = "10vw";
 }
 
 image05.onclick = function(){
     modal.style.display = "inline-block";
     modalImg.src = this.src;
     modalImg.style.height = "fit-content";
+    modalImg.style.width = "60vw";
+    modalImg.style.position = "relative";
+    modalImg.style.left = "7vw";
 }
 
 image06.onclick = function(){
     modal.style.display = "inline-block";
     modalImg.src = this.src;
     modalImg.style.height = "fit-content";
-    modalImg.style.width = "30vw";
+    modalImg.style.width = "40vw";
     modalImg.style.position = "relative";
     modalImg.style.left = "20vw";
 }
@@ -91,7 +107,7 @@ image07.onclick = function(){
     modal.style.display = "inline-block";
     modalImg.src = this.src;
     modalImg.style.height = "fit-content";
-    modalImg.style.width = "30vw";
+    modalImg.style.width = "40vw";
     modalImg.style.position = "relative";
     modalImg.style.left = "20vw";
 }
