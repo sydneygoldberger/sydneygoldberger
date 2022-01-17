@@ -1,82 +1,91 @@
-function myFunction(x) {
-    if (x.matches) { // If media query matches        
-		$(".projectPhotoHome > .slides1:gt(0)").hide();
-		setInterval(function () {
-			$('.projectPhotoHome > .slides1:first')
-				.fadeOut(1000)
-				.next()
-				.fadeIn(1000)
-				.end()
-				.appendTo('.projectPhotoHome');
-		}, 6000);
-		
-		$(".projectPhotoHome > .slides2:gt(0)").hide();
-		setInterval(function () {
-			$('.projectPhotoHome > .slides2:first')
-				.fadeOut(1000)
-				.next()
-				.fadeIn(1000)
-				.end()
-				.appendTo('.projectPhotoHome');
-		}, 6000);
-		
-		$(".projectPhotoHome > .slides3:gt(0)").hide();
-		setInterval(function () {
-			$('.projectPhotoHome > .slides3:first')
-				.fadeOut(1000)
-				.next()
-				.fadeIn(1000)
-				.end()
-				.appendTo('.projectPhotoHome');
-		}, 6000);
-		
-		$(".projectPhotoHome > .slides4:gt(0)").hide();
-		setInterval(function () {
-			$('.projectPhotoHome > .slides4:first')
-				.fadeOut(1000)
-				.next()
-				.fadeIn(1000)
-				.end()
-				.appendTo('.projectPhotoHome');
-		}, 6000);
-		
-		$(".projectPhotoHome > .slides5:gt(0)").hide();
-		setInterval(function () {
-			$('.projectPhotoHome > .slides5:first')
-				.fadeOut(1000)
-				.next()
-				.fadeIn(1000)
-				.end()
-				.appendTo('.projectPhotoHome');
-		}, 6000);
-		
-		$(".projectPhotoHome > .slides6:gt(0)").hide();
-		setInterval(function () {
-			$('.projectPhotoHome > .slides6:first')
-				.fadeOut(1000)
-				.next()
-				.fadeIn(1000)
-				.end()
-				.appendTo('.projectPhotoHome');
-		}, 6000);
-		
-		$(".projectPhotoHome > .slides7:gt(0)").hide();
-		setInterval(function () {
-			$('.projectPhotoHome > .slides7:first')
-				.fadeOut(1000)
-				.next()
-				.fadeIn(1000)
-				.end()
-				.appendTo('.projectPhotoHome');
-		}, 6000);
-		
-		
-    } 
-  }
+// function myFunction(x) {
+//     if (x.matches) { // If media query matches        
+//         image01.onclick = function(){
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+//         image02.onclick = function(){
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+//         image03.onclick = function(){
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+        
+//         image04.onclick = function(){
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+        
+//         image05.onclick = function(){
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+        
+//         image06.onclick = function(){
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+        
+//         image07.onclick = function(){
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+        
+//         image08.onclick = function(){
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+        
+//         image09.onclick = function(){   
+//             modalImg.style.display = "none";
+//         modal.style.display = "none"
+//         }
+        
+//         image10.onclick = function(){
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+        
+//         image11.onclick = function(){
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+//         image12.onclick = function(){
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+        
+//         image13.onclick = function(){
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+        
+//         image14.onclick = function(){   
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+        
+//         image15.onclick = function(){
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+        
+//         image16.onclick = function(){
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+//         image17.onclick = function(){
+//             modalImg.style.display = "none";
+//             modal.style.display = "none"
+//         }
+//     } 
+//   }
   
-  var x = window.matchMedia("(min-width: 764px)")
-  myFunction(x) // Call listener function at run time
-  x.addListener(myFunction) // Attach listener function on state changes
+//   var x = window.matchMedia("(min-width: 764px)")
+//   myFunction(x) // Call listener function at run time
+//   x.addListener(myFunction) // Attach listener function on state changes
   
 
 

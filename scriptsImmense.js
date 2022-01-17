@@ -48,6 +48,8 @@ var image14 = document.getElementById("image14");
 var image15 = document.getElementById("image15");
 var image16 = document.getElementById("image16");
 var image17 = document.getElementById("image17");
+var image18 = document.getElementById("image18");
+var image19 = document.getElementById("image19");
 
 
 var modalImg = document.getElementById("img01");
@@ -230,7 +232,24 @@ image17.onclick = function(){
     modalImg.src = this.src;
     modalImg.style.backgroundColor = "white";
 }
-
+image18.onclick = function(){
+    modal.style.display = "inline-block";
+    modalImg.style.height = "fit-content";
+    modalImg.style.width = "80vw";
+    modalImg.style.position = "relative";
+    modalImg.style.left = "-5vw";
+    modalImg.src = this.src;
+    modalImg.style.backgroundColor = "white";
+}
+image19.onclick = function(){
+    modal.style.display = "inline-block";
+    modalImg.style.height = "fit-content";
+    modalImg.style.width = "80vw";
+    modalImg.style.position = "relative";
+    modalImg.style.left = "-5vw";
+    modalImg.src = this.src;
+    modalImg.style.backgroundColor = "white";
+}
 
 
 var close = document.getElementsByClassName("close")[0];
@@ -246,6 +265,10 @@ close.onclick = function() {
 function myFunction(x) {
     if (x.matches) { // If media query matches        
         image01.onclick = function(){
+            modalImg.style.display = "none";
+            modal.style.display = "none"
+        }
+        image01b.onclick = function(){
             modalImg.style.display = "none";
             modal.style.display = "none"
         }
@@ -325,6 +348,14 @@ function myFunction(x) {
             modalImg.style.display = "none";
             modal.style.display = "none"
         }
+        image18.onclick = function(){
+            modalImg.style.display = "none";
+            modal.style.display = "none"
+        }
+        image19.onclick = function(){
+            modalImg.style.display = "none";
+            modal.style.display = "none"
+        }
     } 
   }
   
@@ -332,5 +363,4 @@ function myFunction(x) {
   myFunction(x) // Call listener function at run time
   x.addListener(myFunction) // Attach listener function on state changes
   
-
 
